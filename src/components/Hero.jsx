@@ -20,7 +20,7 @@ const Hero = () => {
                 <p className='text-sm max-w-[80%] mx-auto text-left'>Добрый день! Меня зовут Мария,я дизайнер интерьеров ,3D визуализатор и основатель студии MOSSO.</p>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm'>Философия студии</p>
                 <p className='text-sm max-w-[80%] mx-auto text-left'>
-                Философия нашей студии - превратить вашу мечту о идеальном доме в реальность, делая это с максимальным удобством и без лишнего стресса, чтобы после завершения этого этапа вашей жизни,у вас остались только теплые воспоминания и впечатления.</p>
+                    Философия нашей студии - превратить вашу мечту о идеальном доме в реальность, делая это с максимальным удобством и без лишнего стресса, чтобы после завершения этого этапа вашей жизни,у вас остались только теплые воспоминания и впечатления.</p>
                 <ul className='grid grid-cols-1 grid-rows-4 gap-4 text-3xl items-start px-4 mt-3 mx-auto sm:grid-cols-2 sm:grid-rows-2'>
                     <a className='flex items-center gap-2' href=""><FaTelegram /> <span className='text-sm'>- @mosso</span></a>
                     <a className='flex items-center gap-2' href=""><FaInstagram /> <span className='text-sm'>- @mosso</span></a>
@@ -28,7 +28,8 @@ const Hero = () => {
                     <a className='flex items-center gap-2' href=""><FaViber /><span className='text-sm'>- +373 (69) 666999</span></a>
                 </ul>
                 <div
-                    className='relative h-[500px] w-full bg-cover bg-center bg-fixed mt-4'
+                // BG ATACHMETN FIXED FOR IOS 
+                    className='relative h-[500px] w-full bg-cover bg-center mt-4'
                     style={{ backgroundImage: `url(${Header2})` }}
                 >
                 </div>

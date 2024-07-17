@@ -30,7 +30,7 @@ const Faq = () => {
             </div>
           )}
         </div>
-        
+
         <div className='w-full'>
           <button
             onClick={() => toggleDropdown(1)}

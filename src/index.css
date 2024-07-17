@@ -9,3 +9,26 @@ body {
 .tracking {
     letter-spacing: 5px;
 }
+
+
+
+.parallax-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 500px; /* Adjust height as needed */
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.parallax img {
+    transform: translateY(-50%);
+}
+
+  
