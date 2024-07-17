@@ -21,7 +21,7 @@ const Slider = ({ slides, projectName }) => {
                     {slides.map((slide, index) => (
                         <LazyLoad key={index} height={'100%'} once className='h-full'>
                             <img
-                                src={`public/${projectName}/${slide}`}
+                                src={`/assets/${projectName}/${slide}`}
                                 alt={`${projectName}-${index}`}
                                 className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full object-fill`}
                                 onError={(e) => {
