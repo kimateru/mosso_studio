@@ -10,12 +10,11 @@ const Faq = () => {
 
   return (
     <section id='faq' className='flex flex-col gap-5 justify-between items-center text-center mt-5'>
-      <h2 className='text-xl font-light tracking-wide'>ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ MOSSO</h2>
-      <div className='flex flex-col gap-5 justify-between items-center w-full'>
-        <div className='w-full'>
+      <div className='flex flex-col gap-5 justify-between items-center w-full '>
+        <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(0)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
             <span>Дизайн - проект</span> <FaCaretDown />
           </button>
@@ -31,10 +30,10 @@ const Faq = () => {
           )}
         </div>
 
-        <div className='w-full'>
+        <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(1)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
             <span>Авторское сопровождение</span> <FaCaretDown />
           </button>
@@ -50,10 +49,10 @@ const Faq = () => {
           )}
         </div>
 
-        <div className='w-full'>
+        <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(2)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
             <span>Комплектация</span> <FaCaretDown />
           </button>
