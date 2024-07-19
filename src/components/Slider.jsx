@@ -14,21 +14,19 @@ const Slider = ({ slides, projectName }) => {
     };
 
     return (
-        <div className="relative mx-auto flex flex-col text-center">
-            <h1 className="text-2xl font-bold text-center mb-4">{projectName}</h1>
-            <div className="relative max-w-[300px] h-[390px] md:overflow-hidden md:w-full ">
+        <div className="w-[80%] sm:w-[95%] mx-auto flex flex-col text-center mt-4">
+            <h1 className="text-2xl font-bold text-center mb-2">{projectName}</h1>
+            <div className="relative min-w-full h-[440px] sm:h-[550px] md:h-[400px] lg:h-[550px] md:overflow-hidden md:w-full ">
                 <div className="flex h-full items-center mx-auto">
                     {slides.map((slide, index) => (
-                        <LazyLoad key={index} height={'100%'} once className='h-full'>
                             <img
                                 src={`/assets/${projectName}/${slide}`}
                                 alt={`${projectName}-${index}`}
-                                className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full object-fill`}
+                                className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full object-cover`}
                                 onError={(e) => {
                                     console.log('Image load error:', e);
                                 }}
                             />
-                        </LazyLoad>
                     ))}
                 </div>
                 <div className="absolute top-1/2 transform -translate-y-1/2 flex justify-between w-full px-4">

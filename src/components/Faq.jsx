@@ -14,9 +14,9 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(0)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
-            <span>Дизайн - проект</span> <FaCaretDown />
+            <span className='opacity-100'>Дизайн - проект</span> <FaCaretDown />
           </button>
           {openDropdown === 0 && (
             <div className="text-black p-2 pl-4 mt-2 rounded-xl transition-all duration-300 text-sm flex flex-col gap-4 text-left">
@@ -33,13 +33,13 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(1)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
             <span>Авторское сопровождение</span> <FaCaretDown />
           </button>
           {openDropdown === 1 && (
             <div className="text-black p-2 pl-4 mt-2 rounded-xl transition-all duration-300 text-sm flex flex-col gap-4 text-left">
-              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>01.</span>Подбор строительной бригады </p>
+              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>01.</span>Подбор строительной бригады.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>02.</span>Проверка выполнения строительных и отделочных работ в соответствии с проектной документацией.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>03.</span>Контроль качества используемых материалов и работ.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>04.</span>Внесение необходимых изменений в проектную документацию по ходу работ</p>
@@ -52,17 +52,17 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(2)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-stone-50 py-2 px-2  text-sm flex items-center justify-center gap-2 lg:text-base'
           >
-            <span>Комплектация</span> <FaCaretDown />
+            <span className=''>Комплектация</span> <FaCaretDown />
           </button>
           {openDropdown === 2 && (
             <div className="text-black p-2 pl-4 mt-2 rounded-xl transition-all duration-300 text-sm flex flex-col gap-4 text-left">
-              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>01.</span>Организация процесса закупки </p>
-              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>02.</span>Размещение заказов у поставщиков,организация доставки материалов и мебели на объект</p>
+              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>01.</span>Организация процесса закупки.</p>
+              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>02.</span>Размещение заказов у поставщиков,организация доставки материалов и мебели на объект.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>03.</span>Подбор и согласование образцов отделочных материалов, мебели и декора.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>04.</span>Организация и контроль установки мебели и оборудования.</p>
-              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>05.</span>Решение возникающих задач в процессе реализации </p>
+              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>05.</span>Решение возникающих задач в процессе реализации.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>06.</span>Окончательная проверка всех позиций на соответствие проекту.</p>
             </div>
           )}
