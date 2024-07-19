@@ -27,7 +27,7 @@ const Hero = () => {
                     <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm'>- +373 (69) 666999</span></a>
                     <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm'>- +373 (69) 666999</span></a>
                 </ul>
-                <p className='border-t-2 border-b-2 border-black tracking text-sm py-3'></p>
+                <p className='border-t-2 border-b-2 border-black tracking text-sm h-[24px]'></p>
                 <div
                     // BG ATACHMETN FIXED FOR IOS 
                     className='relative h-[500px] w-full bg-cover bg-bottom'
