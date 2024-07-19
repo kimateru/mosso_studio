@@ -22,7 +22,7 @@ const Hero = () => {
                 <p className='text-sm max-w-[80%] mx-auto text-left lg:max-w-[60%] md:text-base lg:text-lg'>
                     Философия нашей студии - превратить вашу мечту о идеальном доме в реальность, делая это с максимальным удобством и без лишнего стресса, чтобы после завершения этого этапа вашей жизни,у вас остались только теплые воспоминания и впечатления.</p>
                 <ul className='grid grid-cols-1 grid-rows-4 gap-4 text-3xl items-start px-4 mt-3 mx-auto sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1'>
-                    <a className='flex items-center gap-2 lg:justify-center' href=""><FaTelegram /> <span className='text-sm lg:text-base'>- @mosso</span></a>
+                    <a className='flex items-center gap-2 lg:justify-center' href="https://t.me/mossost" target="_blank" rel="noopener noreferre"><FaTelegram /> <span className='text-sm lg:text-base'>- @mosso</span></a>
                     <a className='flex items-center gap-2 lg:justify-center' href="https://www.instagram.com/mossostudio__/"><FaInstagram /> <span className='text-sm lg:text-base'>- @mosso</span></a>
                     <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm'>- +373 (68) 710771</span></a>
                     <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm'>- +373 (68) 710771</span></a>
