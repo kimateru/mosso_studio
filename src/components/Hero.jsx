@@ -24,8 +24,8 @@ const Hero = () => {
                 <ul className='grid grid-cols-1 grid-rows-4 gap-4 text-3xl items-start px-4 mt-3 mx-auto sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1'>
                     <a className='flex items-center gap-2 lg:justify-center' href=""><FaTelegram /> <span className='text-sm lg:text-base'>- @mosso</span></a>
                     <a className='flex items-center gap-2 lg:justify-center' href="https://www.instagram.com/mossostudio__/"><FaInstagram /> <span className='text-sm lg:text-base'>- @mosso</span></a>
-                    <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm'>- +373 (69) 666999</span></a>
-                    <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm'>- +373 (69) 666999</span></a>
+                    <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm'>- +373 (68) 710771</span></a>
+                    <a className='flex items-center gap-2 lg:justify-center lg:px-2' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm'>- +373 (68) 710771</span></a>
                 </ul>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm h-[24px]'></p>
                 <div
