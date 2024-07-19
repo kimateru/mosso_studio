@@ -14,9 +14,9 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(0)}
-            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
-            <span className='opacity-100'>Дизайн - проект</span> <FaCaretDown />
+            <span>Дизайн - проект</span> <FaCaretDown />
           </button>
           {openDropdown === 0 && (
             <div className="text-black p-2 pl-4 mt-2 rounded-xl transition-all duration-300 text-sm flex flex-col gap-4 text-left">
@@ -33,7 +33,7 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(1)}
-            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
             <span>Авторское сопровождение</span> <FaCaretDown />
           </button>
@@ -52,9 +52,9 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(2)}
-            className='rounded-full w-full bg-[#5e5e5e] opacity-20 text-stone-50 py-2 px-2  text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
           >
-            <span className=''>Комплектация</span> <FaCaretDown />
+            <span>Комплектация</span> <FaCaretDown />
           </button>
           {openDropdown === 2 && (
             <div className="text-black p-2 pl-4 mt-2 rounded-xl transition-all duration-300 text-sm flex flex-col gap-4 text-left">
