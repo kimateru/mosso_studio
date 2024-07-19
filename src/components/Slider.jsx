@@ -29,7 +29,7 @@ const Slider = ({ slides, projectName }) => {
                         />
                     ))}
                 </div>
-                <div className="absolute top-1/2 transform -translate-y-1/2 flex justify-between w-[70%] px-4">
+                <div className="absolute top-1/2 transform -translate-y-1/2 flex justify-between w-full xl:w-[60%] 2xl:w-[40%] px-4">
                     <button
                         onClick={prevSlide}
                         className="bg-black bg-opacity-50 text-white p-2 rounded-full transition duration-300 hover:bg-opacity-75 focus:outline-none"
