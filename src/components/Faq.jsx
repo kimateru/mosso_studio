@@ -14,7 +14,7 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(0)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base transition-transform transform hover:scale-105 hover:bg-[#5a5a5a] hover:shadow-lg'
           >
             <span>Дизайн - проект</span> <FaCaretDown />
           </button>
@@ -33,7 +33,7 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(1)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base transition-transform transform hover:scale-105 hover:bg-[#5a5a5a] hover:shadow-lg'
           >
             <span>Авторское сопровождение</span> <FaCaretDown />
           </button>
@@ -42,7 +42,7 @@ const Faq = () => {
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>01.</span>Подбор строительной бригады.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>02.</span>Проверка выполнения строительных и отделочных работ в соответствии с проектной документацией.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>03.</span>Контроль качества используемых материалов и работ.</p>
-              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>04.</span>Внесение необходимых изменений в проектную документацию по ходу работ</p>
+              <p className='flex gap-2 border-b pb-2'><span className='text-sm'>04.</span>Внесение необходимых изменений в проектную документацию по ходу работ.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>05.</span>Регулярные визиты на объект для проверки этапов работ,финальная приемка выполненных работ и проверка на соответствие проекту.</p>
               <p className='flex gap-2 border-b pb-2'><span className='text-sm'>06.</span>Оперативное реагирование на любые изменения или непредвиденные ситуации на объекте.</p>
             </div>
@@ -52,7 +52,7 @@ const Faq = () => {
         <div className='w-full lg:w-[50%]'>
           <button
             onClick={() => toggleDropdown(2)}
-            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base'
+            className='rounded-full w-full bg-[#747373] text-white py-2 px-2 text-sm flex items-center justify-center gap-2 lg:text-base transition-transform transform hover:scale-105 hover:bg-[#5a5a5a] hover:shadow-lg'
           >
             <span>Комплектация</span> <FaCaretDown />
           </button>
