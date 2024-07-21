@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import Logo from '/assets/icons/logo.webp';
 import Header1 from '/assets/img/1.webp';
 import Header2 from '/assets/img/2.webp';
@@ -6,6 +8,9 @@ import { FaTelegram, FaInstagram, FaWhatsapp, FaViber } from "react-icons/fa";
 const Hero = () => {
     return (
         <section id='hero' className='flex flex-col mt-4 text-center gap-5'>
+            <Helmet>
+                <link rel="preload" as="image" href={Header1} />
+            </Helmet>
             <div className='flex flex-col gap-5 justify-between animate-fadeIn'>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm animate-slideIn'>Студия дизайна и 3D</p>
                 <h1 className='font-bold text-xl md:text-2xl lg:text-3xl animate-slideIn'>Дизайн, c вниманием к каждой детали.</h1>
@@ -41,7 +46,6 @@ const Hero = () => {
                 </div>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm h-[24px] animate-slideIn'></p>
                 <div
-                    // BG ATACHMETN FIXED FOR IOS 
                     className='relative h-[500px] w-full bg-cover bg-bottom animate-fadeIn'
                     style={{ backgroundImage: `url(${Header2})` }}
                 >
