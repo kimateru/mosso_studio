@@ -15,7 +15,7 @@ const Slider = ({ slides, projectName }) => {
 
     return (
         <div className="relative mx-auto flex flex-col text-center h-full w-full">
-            <h1 className="text-2xl font-bold text-center">{projectName}</h1>
+            <h1 className="text-2xl text-center">{projectName}</h1>
             <div className="relative md:overflow-hidden flex items-center justify-center w-full">
                 <div className="flex h-full items-center mx-auto w-full">
                     {slides.map((slide, index) => (

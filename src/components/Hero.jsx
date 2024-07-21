@@ -25,17 +25,17 @@ const Hero = () => {
                         Философия нашей студии - превратить вашу мечту о идеальном доме в реальность, делая это с максимальным удобством и без лишнего стресса, чтобы после завершения этого этапа вашей жизни,у вас остались только теплые воспоминания и впечатления.
                     </p>
                     <ul className='flex flex-col items-center gap-2 text-3xl mt-3 sm:flex-row w-full text-center justify-between'>
-                        <li className='w-full sm:w-auto flex justify-center'>
-                            <a className='flex items-center transition-transform transform hover:scale-105 hover:text-pink-600 animate-fadeIn' href="https://www.instagram.com/mossostudio__/"><FaInstagram /> <span className='text-sm lg:text-base ml-2'>- @mosso</span></a>
+                        <li className='w-full flex justify-center'>
+                            <a className='w-[119px] flex items-center transition-transform transform hover:scale-105 hover:text-pink-600 animate-fadeIn' href="https://www.instagram.com/mossostudio__/"><FaInstagram /> <span className='text-sm lg:text-base ml-2'>- @mosso</span></a>
                         </li>
-                        <li className='w-full sm:w-auto flex justify-center'>
-                            <a className='flex items-center transition-transform transform hover:scale-105 hover:text-blue-500 animate-fadeIn' href="https://t.me/mossost" target="_blank" rel="noopener noreferrer"><FaTelegram /> <span className='text-sm lg:text-base ml-2'>- @mosso</span></a>
+                        <li className='w-full flex justify-center'>
+                            <a className='w-[119px] flex items-center transition-transform transform hover:scale-105 hover:text-blue-500 animate-fadeIn' href="https://t.me/mossost" target="_blank" rel="noopener noreferrer"><FaTelegram /> <span className='text-sm lg:text-base ml-2'>- @mosso</span></a>
                         </li>
-                        <li className='w-full sm:w-auto flex justify-center'>
-                            <a className='flex items-center transition-transform transform hover:scale-105 hover:text-green-500 animate-fadeIn' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm ml-2'>- 068710771</span></a>
+                        <li className='w-full flex justify-center'>
+                            <a className='w-[119px] flex items-center transition-transform transform hover:scale-105 hover:text-green-500 animate-fadeIn' href="https://wa.me/068710771"><FaWhatsapp /> <span className='text-sm ml-2'>- 068710771</span></a>
                         </li>
-                        <li className='w-full sm:w-auto flex justify-center'>
-                            <a className='flex items-center transition-transform transform hover:scale-105 hover:text-purple-600 animate-fadeIn' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm ml-2'>- 068710771</span></a>
+                        <li className='w-full flex justify-center'>
+                            <a className='w-[119px] flex items-center transition-transform transform hover:scale-105 hover:text-purple-600 animate-fadeIn' href="viber://chat?number=%2B37368710771"><FaViber /><span className='text-sm ml-2'>- 068710771</span></a>
                         </li>
                     </ul>
                 </div>
