@@ -10,6 +10,8 @@ const Hero = () => {
         <section id='hero' className='flex flex-col mt-4 text-center gap-5'>
             <Helmet>
                 <link rel="preload" as="image" href={Header1} />
+                <link rel="preload" as="image" href={Header2} />
+                <link rel="preload" as="image" href={Logo} />
             </Helmet>
             <div className='flex flex-col gap-5 justify-between animate-fadeIn'>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm animate-slideIn'>Студия дизайна и 3D</p>
