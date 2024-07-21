@@ -1,6 +1,6 @@
-import Logo from '/assets/icons/logo.jpg';
-import Header1 from '/assets/img/1.jpg';
-import Header2 from '/assets/img/2.jpg';
+import Logo from '/assets/icons/logo.webp';
+import Header1 from '/assets/img/1.webp';
+import Header2 from '/assets/img/2.webp';
 import { FaTelegram, FaInstagram, FaWhatsapp, FaViber } from "react-icons/fa";
 
 const Hero = () => {
