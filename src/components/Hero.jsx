@@ -60,7 +60,7 @@ const Hero = () => {
                     Мы специализируемся на минималистичных интерьерах, которые обеспечивают максимальный комфорт и эстетическое наслаждение.
                 </p>
             </div>
-            <h2 className='text-xl font-light tracking-wide animate-slideIn'>ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ MOSSO</h2>
+            <h2  className='text-xl font-light tracking-wide animate-slideIn'>ДОБРО ПОЖАЛОВАТЬ В СТУДИЮ MOSSO</h2>
         </section>
     );
 }
