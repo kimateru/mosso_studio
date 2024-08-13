@@ -14,7 +14,7 @@ const Hero = () => {
                 <link rel="preload" as="image" href={Logo} />
             </Helmet>
             <div className='flex flex-col gap-5 justify-between animate-fadeIn'>
-                <p className='border-t-2 border-b-2 border-black tracking text-sm animate-slideIn'>Студия дизайна и 3D</p>
+                <h1 className='border-t-2 border-b-2 border-black tracking text-sm animate-slideIn'>Студия дизайна и 3D</h1>
                 <h1 className='font-bold text-xl md:text-2xl lg:text-3xl animate-slideIn'>Дизайн, c вниманием к каждой детали.</h1>
                 <img src={Header1} alt="project img" className='h-[15%] object-cover mt-4 md:h-[600px] sm:w-[80%] lg:w-[60%] sm:mx-auto animate-fadeIn' />
                 <p className='text-sm max-w-[80%] mx-auto text-center lg:max-w-[60%] md:text-base lg:text-lg animate-fadeIn'>
@@ -23,9 +23,9 @@ const Hero = () => {
             </div>
             <img src={Logo} alt="Mosso" className='rounded-full w-[150px] mx-auto animate-zoomIn' />
             <div className='flex flex-col gap-5 justify-between mt-5 animate-fadeIn' id='contacts'>
-                <p className='text-sm max-w-[80%] mx-auto text-center lg:max-w-[60%] md:text-base lg:text-lg animate-slideIn'>
+                <h3 className='text-sm max-w-[80%] mx-auto text-center lg:max-w-[60%] md:text-base lg:text-lg animate-slideIn'>
                     Добрый день! Меня зовут Мария,я дизайнер интерьеров ,3D визуализатор и основатель студии MOSSO.
-                </p>
+                </h3>
                 <p className='border-t-2 border-b-2 border-black tracking text-sm animate-slideIn'>Философия студии</p>
                 <div className='max-w-[80%] lg:max-w-[60%] mx-auto flex flex-col items-center animate-fadeIn'>
                     <p className='text-sm text-center md:text-base lg:text-lg'>
